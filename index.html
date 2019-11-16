@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RetroProject</title>
-    <!-- Bootstrap -->
+	  <title>RetroProject</title>
     <link href="css/bootstrap-4.2.1.css" rel="stylesheet">
+    <link href="css/background.css" rel="stylesheet" type="text/css">
   </head>
   <body>
 <div class="container mt-3">
@@ -104,9 +104,9 @@
         <h3>Emulátorok</h3>
             <nav>
               <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Wizard of Wor</a>
-                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Impossible Mission</a>
-                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Archon</a>
+                <a class="nav-item nav-link active" id="nav-wizard-tab" data-toggle="tab" href="#nav-wizard" role="tab" aria-controls="nav-home" aria-selected="true">Wizard of Wor</a>
+                <a class="nav-item nav-link" id="nav-IM-tab" data-toggle="tab" href="#nav-im" role="tab" aria-controls="nav-profile" aria-selected="false">Impossible Mission</a>
+                <a class="nav-item nav-link" id="nav-archon-tab" data-toggle="tab" href="#nav-archon" role="tab" aria-controls="nav-contact" aria-selected="false">Archon</a>
               </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
@@ -125,16 +125,36 @@
       </div>
     </section>
     <hr>
-    <div class="container">
-      <div class="row">
-            <div class="col-lg-6 col-12 col-xl-12">
-              <h3>Rólunk</h3>
-              <hr>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequatur neque exercitationem distinctio esse! Cupiditate doloribus a consequatur iusto illum eos facere vel iste iure maxime. Velit, rem, sunt obcaecati eveniet id nemo molestiae. In.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequatur neque exercitationem distinctio esse! Cupiditate doloribus a consequatur iusto illum eos facere vel iste iure maxime. Velit, rem, sunt obcaecati eveniet id nemo molestiae. In.</p>
+<section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <h3>Közösség</h3>
+            <hr>
+			<div class="fb-page" data-href="https://www.facebook.com/RetrogamesMania/" data-tabs="timeline, messages" data-width="800" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/RetrogamesMania/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RetrogamesMania/">Retrogames Mania</a></blockquote></div>
+	
+          </div>
+          <div class="col-md-6 col-12">
+            <h3>Rólunk</h3>
+            <nav> </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <p class="text-center mt-2"><img src="images/banner.png" alt=""></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus maxime aut ea impedit voluptates aperiam dolor laborum officiis autem aspernatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, alias, repudiandae sunt illo consequatur aperiam doloribus nesciunt ut deserunt ipsa est tempora nihil. Totam eveniet aperiam debitis fugit ipsa doloremque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sequi dolorem suscipit assumenda molestiae voluptatem qui consequuntur magni? Deleniti, corporis.</p>
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <p class="text-center mt-2"><img src="images/3b536b.gif" alt=""></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus maxime aut ea impedit voluptates aperiam dolor laborum officiis autem aspernatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, alias, repudiandae sunt illo consequatur aperiam doloribus nesciunt ut deserunt ipsa est tempora nihil. Totam eveniet aperiam debitis fugit ipsa doloremque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sequi dolorem suscipit assumenda molestiae voluptatem qui consequuntur magni? Deleniti, corporis.</p>
+              </div>
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <p class="text-center mt-2"><img src="images/3b536b.gif" alt=""></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus maxime aut ea impedit voluptates aperiam dolor laborum officiis autem aspernatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, alias, repudiandae sunt illo consequatur aperiam doloribus nesciunt ut deserunt ipsa est tempora nihil. Totam eveniet aperiam debitis fugit ipsa doloremque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sequi dolorem suscipit assumenda molestiae voluptatem qui consequuntur magni? Deleniti, corporis.</p>
+              </div>
             </div>
-</div>
+          </div>
         </div>
+      </div>
+    </section>
     <footer class="text-center">
       <div class="container">
         <div class="row">
@@ -144,10 +164,10 @@
         </div>
       </div>
     </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.2.1.js"></script>
+	 <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v5.0"></script>
   </body>
 </html>
